@@ -179,7 +179,7 @@ export const EnhancedDemo: React.FC = () => {
 
     // Initialize message translations
     useMemo(() => {
-        messageBuilderState.setMessage(__filename, "title", { 
+        messageBuilderState.setMessage("EnhancedDemo", "title", { 
             en: "Real-time Voice Conversion Demo",
             ja: "リアルタイム音声変換デモ", 
             ko: "실시간 음성 변환 데모",
