@@ -22,7 +22,7 @@ export const DemoDocumentation: React.FC<DemoDocumentationProps> = ({ isVisible,
 
     // Initialize translations
     useMemo(() => {
-        messageBuilderState.setMessage(__filename, "documentation", {
+        messageBuilderState.setMessage(COMPONENT_ID, "documentation", {
             en: "Documentation",
             ja: "ドキュメント",
             ko: "문서",
