@@ -30,7 +30,7 @@ export const LanguageSelector: React.FC<LanguageSelectorProps> = ({
 
     // Initialize translations for the language selector itself
     useMemo(() => {
-        messageBuilderState.setMessage(__filename, "select_language", {
+        messageBuilderState.setMessage("LanguageSelector", "select_language", {
             en: "Select Language",
             ja: "言語を選択",
             ko: "언어 선택",
