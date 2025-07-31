@@ -25,7 +25,7 @@ export const ModelShowcase: React.FC<ModelShowcaseProps> = ({ selectedModel, onM
 
     // Initialize translations
     useMemo(() => {
-        messageBuilderState.setMessage(__filename, "ai_models", {
+        messageBuilderState.setMessage("ModelShowcase", "ai_models", {
             en: "AI Models",
             ja: "AIモデル",
             ko: "AI 모델",
