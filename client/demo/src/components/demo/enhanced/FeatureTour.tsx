@@ -32,7 +32,7 @@ export const FeatureTour: React.FC<FeatureTourProps> = ({ onComplete }) => {
 
     // Initialize translations
     useMemo(() => {
-        messageBuilderState.setMessage(__filename, "welcome_title", {
+        messageBuilderState.setMessage(COMPONENT_ID, "welcome_title", {
             en: "Welcome to Voice Changer Demo",
             ja: "ボイスチェンジャーデモへようこそ",
             ko: "음성 변환기 데모에 오신 것을 환영합니다",
