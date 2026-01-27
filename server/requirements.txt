@@ -6,12 +6,12 @@
 uvicorn==0.21.1
 pyOpenSSL==23.1.1
 numpy==1.23.5
-torch==2.0.1
+torch==2.8.0
 torchaudio==2.0.2
 resampy==0.4.2
-python-socketio==5.8.0
+python-socketio==5.14.0
 fastapi==0.95.1
-python-multipart==0.0.6
+python-multipart==0.0.22
 onnxruntime-gpu==1.13.1
 scipy==1.10.1
 matplotlib==3.7.1
